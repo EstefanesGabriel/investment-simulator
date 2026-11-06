@@ -1,0 +1,2 @@
+{"compilerOptions":{"lib":["ES2023","ESNext.Intl","DOM"],"target":"ES2022","module":"ESNext","moduleResolution":"Bundler","jsx":"react-jsx","strict":true,"skipLibCheck":true},"include":["src"]}
+

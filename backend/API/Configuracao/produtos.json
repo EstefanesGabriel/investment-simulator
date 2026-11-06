@@ -1,0 +1,267 @@
+[
+  {
+    "Codigo": "CDB",
+    "Nome": "CDB",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "selic",
+      "ipca"
+    ],
+    "Risco": "Crédito do emissor",
+    "Observacao": "Liquidez e cobertura do FGC dependem da emissão e dos limites por titular."
+  },
+  {
+    "Codigo": "LCI",
+    "Nome": "LCI",
+    "Grupo": "fixa",
+    "Tributacao": "isento",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito do emissor",
+    "Observacao": "Isenção para pessoa física. Observe carência e vencimento contratados."
+  },
+  {
+    "Codigo": "LCA",
+    "Nome": "LCA",
+    "Grupo": "fixa",
+    "Tributacao": "isento",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito do emissor",
+    "Observacao": "Isenção para pessoa física. Observe carência e vencimento contratados."
+  },
+  {
+    "Codigo": "LC",
+    "Nome": "Letra de câmbio",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito do emissor",
+    "Observacao": "Verifique elegibilidade e limites do FGC."
+  },
+  {
+    "Codigo": "LF",
+    "Nome": "Letra financeira",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito e liquidez",
+    "Observacao": "Sem FGC. Não pressupõe resgate antecipado."
+  },
+  {
+    "Codigo": "SELIC",
+    "Nome": "Tesouro Selic",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "selic"
+    ],
+    "Risco": "Soberano e mercado",
+    "Observacao": "Estimativa pela curva. Custódia efetiva informada pelo usuário, considerando eventuais isenções."
+  },
+  {
+    "Codigo": "PREFIXADO",
+    "Nome": "Tesouro Prefixado",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "prefixado"
+    ],
+    "Risco": "Soberano e mercado",
+    "Observacao": "Modelo sem cupons, mantido até o vencimento. Venda antecipada depende do preço de mercado."
+  },
+  {
+    "Codigo": "IPCA",
+    "Nome": "Tesouro IPCA+",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "ipca"
+    ],
+    "Risco": "Soberano e mercado",
+    "Observacao": "Modelo sem cupons e sem defasagem do índice. Venda antecipada depende do preço de mercado."
+  },
+  {
+    "Codigo": "DEB",
+    "Nome": "Debênture comum",
+    "Grupo": "fixa",
+    "Tributacao": "regressivo",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito e liquidez",
+    "Observacao": "Sem FGC. Modelo de pagamento único no vencimento."
+  },
+  {
+    "Codigo": "DEBI",
+    "Nome": "Debênture incentivada",
+    "Grupo": "fixa",
+    "Tributacao": "isento",
+    "Modalidades": [
+      "prefixado",
+      "ipca"
+    ],
+    "Risco": "Crédito e liquidez",
+    "Observacao": "Isenção depende do enquadramento na Lei 12.431. Modelo sem cupons."
+  },
+  {
+    "Codigo": "CRI",
+    "Nome": "CRI",
+    "Grupo": "fixa",
+    "Tributacao": "isento",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito e liquidez",
+    "Observacao": "Pessoa física. Sem FGC. Modelo sem amortizações intermediárias."
+  },
+  {
+    "Codigo": "CRA",
+    "Nome": "CRA",
+    "Grupo": "fixa",
+    "Tributacao": "isento",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "ipca"
+    ],
+    "Risco": "Crédito e liquidez",
+    "Observacao": "Pessoa física. Sem FGC. Modelo sem amortizações intermediárias."
+  },
+  {
+    "Codigo": "POUPANCA",
+    "Nome": "Poupança",
+    "Grupo": "fixa",
+    "Tributacao": "isento",
+    "Modalidades": [
+      "poupanca"
+    ],
+    "Risco": "Crédito do banco",
+    "Observacao": "Depósitos novos. Rendimentos somente nos aniversários. TR informada como premissa mensal."
+  },
+  {
+    "Codigo": "ACOES",
+    "Nome": "Ações brasileiras",
+    "Grupo": "variavel",
+    "Tributacao": "acoes",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado e emissor",
+    "Observacao": "Operações comuns. Isenção de vendas exige total mensal de ações até R$ 20 mil e enquadramento legal."
+  },
+  {
+    "Codigo": "FII",
+    "Nome": "FIIs",
+    "Grupo": "variavel",
+    "Tributacao": "imobiliario",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado, crédito e vacância",
+    "Observacao": "Ganho de venda tributado. Isenção dos rendimentos depende dos requisitos legais do fundo e cotista."
+  },
+  {
+    "Codigo": "FIAGRO",
+    "Nome": "Fiagros",
+    "Grupo": "variavel",
+    "Tributacao": "imobiliario",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado, crédito e liquidez",
+    "Observacao": "Modelo para Fiagro sob regime de FII. Outros enquadramentos exigem cálculo específico."
+  },
+  {
+    "Codigo": "ETF",
+    "Nome": "ETF de renda variável brasileiro",
+    "Grupo": "variavel",
+    "Tributacao": "acoes",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado e liquidez",
+    "Observacao": "Sem isenção de R$ 20 mil. ETFs de renda fixa exigem regime próprio."
+  },
+  {
+    "Codigo": "BDR",
+    "Nome": "BDRs",
+    "Grupo": "variavel",
+    "Tributacao": "acoes",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado e câmbio",
+    "Observacao": "Retorno e proventos informados em reais. Tributação dos proventos deve ser parametrizada."
+  },
+  {
+    "Codigo": "EXTERIOR",
+    "Nome": "Ações e ETFs no exterior",
+    "Grupo": "variavel",
+    "Tributacao": "exterior",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado, cambial e regulatório",
+    "Observacao": "Pessoa física residente no Brasil. Estimativa de imposto sobre realização final e proventos. Crédito de imposto estrangeiro depende de elegibilidade."
+  },
+  {
+    "Codigo": "FUNDO_LP",
+    "Nome": "Fundo de renda fixa — longo prazo",
+    "Grupo": "fixa",
+    "Tributacao": "fundo-longo",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "selic",
+      "ipca"
+    ],
+    "Risco": "Crédito, mercado e liquidez",
+    "Observacao": "Come-cotas em maio e novembro a 15%, com complemento no resgate. Fundo sem carência tributária especial."
+  },
+  {
+    "Codigo": "FUNDO_CP",
+    "Nome": "Fundo de renda fixa — curto prazo",
+    "Grupo": "fixa",
+    "Tributacao": "fundo-curto",
+    "Modalidades": [
+      "prefixado",
+      "cdi",
+      "selic"
+    ],
+    "Risco": "Crédito, mercado e liquidez",
+    "Observacao": "Come-cotas em maio e novembro a 20%, com complemento no resgate. Fundo sem carência tributária especial."
+  },
+  {
+    "Codigo": "FIA",
+    "Nome": "Fundo de ações",
+    "Grupo": "variavel",
+    "Tributacao": "acoes",
+    "Modalidades": [
+      "cenario"
+    ],
+    "Risco": "Mercado e gestão",
+    "Observacao": "Fundo enquadrado como fundo de ações. IR de 15% no resgate, sem come-cotas. Informe a variação da cota incluindo rendimentos retidos pelo fundo."
+  }
+]

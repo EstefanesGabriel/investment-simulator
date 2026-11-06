@@ -1,0 +1,52 @@
+[
+  {
+    "Versao": "PF-2026-v1",
+    "Inicio": "2026-01-01",
+    "Fim": null,
+    "Fonte": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2026",
+    "IrRegressivo": [
+      22.5,
+      20,
+      17.5,
+      15
+    ],
+    "Iof": [
+      96,
+      93,
+      90,
+      86,
+      83,
+      80,
+      76,
+      73,
+      70,
+      66,
+      63,
+      60,
+      56,
+      53,
+      50,
+      46,
+      43,
+      40,
+      36,
+      33,
+      30,
+      26,
+      23,
+      20,
+      16,
+      13,
+      10,
+      6,
+      3,
+      0
+    ],
+    "IrAcoes": 15,
+    "IrFundosImobiliarios": 20,
+    "IrExterior": 15,
+    "LimiteDividendos": 50000,
+    "IrDividendos": 10,
+    "LimiteVendasAcoes": 20000
+  }
+]
